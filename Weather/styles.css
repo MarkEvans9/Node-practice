@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(152, 156, 90, 0.534);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  overflow: hidden;
+  width: 40vw;
+  height: 70vh;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.WeatherIcon {
+  flex: 1;
+  background-color: rgba(163, 67, 67, 0.493);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* z-index: 1; */
+}
+.details {
+  flex: 1;
+  /* background-color: rgba(63, 180, 34, 0.397);
+
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+  /* overflow: hidden; */
+}
+
+/* 
+.wrapper {
+  flex: 1;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-20%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  /* overflow: hidden; 
+}
+
+.wave {
+  width: 800px;
+  height: 725px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: 20px;
+  border-radius: 45%;
+  background: rgba(255, 255, 255, 0.75);
+  /* background-color: transparent; 
+  animation: wave 15s infinite linear;
+  overflow: hidden;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+} */
